@@ -2086,9 +2086,9 @@ data = {
 }
 if Redis:get(Zelzal.."Zelzal:LogerBot") then
 local Loger_Id = Redis:get(Zelzal.."Zelzal:Loger:Groub")
-send(Loger_Id,0,'\n*⇜ مرحبـاً سيـدي المطـور 🙋🏻‍♀*\n*⇜ حيـوان جديـد منتحـل اسمـك 🥷*\nٴ*⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆*\n*⇜ اسمـه :* '..klajq..' \n*⇜ ايديـه :* '..msg.sender_id.user_id..'\n*⇜ يـوزره :* @'..basgk..'',"md",false, false, false, false, reply_markup)
+send(Loger_Id,0,'\n*⇜ مرحبًـا سيـدي المطـور 🙋🏻‍♀*\n*⇜ حيـوان جديـد منتحـل اسمـك 🥷*\nٴ*⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆*\n*⇜ اسمـه :* '..klajq..' \n*⇜ ايديـه :* '..msg.sender_id.user_id..'\n*⇜ يـوزره :* @'..basgk..'',"md",false, false, false, false, reply_markup)
 else
-send(Sudo_Id,0,'\n*⇜ مرحبـاً سيـدي المطـور 🙋🏻‍♀*\n*⇜ حيـوان جديـد منتحـل اسمـك 🥷*\nٴ*⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆*\n*⇜ اسمـه :* '..klajq..' \n*⇜ ايديـه :* '..msg.sender_id.user_id..'\n*⇜ يـوزره :* @'..basgk..'',"md",false, false, false, false, reply_markup)
+send(Sudo_Id,0,'\n*⇜ مرحبًـا سيـدي المطـور 🙋🏻‍♀*\n*⇜ حيـوان جديـد منتحـل اسمـك 🥷*\nٴ*⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆*\n*⇜ اسمـه :* '..klajq..' \n*⇜ ايديـه :* '..msg.sender_id.user_id..'\n*⇜ يـوزره :* @'..basgk..'',"md",false, false, false, false, reply_markup)
 end
 end
 end
@@ -2132,7 +2132,7 @@ data = {
 }
 if Redis:get(Zelzal.."Zelzal:Loger:BotGroub"..msg.chat_id) then
 local Loger_Id = Redis:get(Zelzal.."Zelzal:Loger:BotGroub"..msg.chat_id)
-send(Loger_Id,0,'\n*⇜ مرحبـاً سيـدي المـالك 🙋🏻‍♀*\n*⇜ حيـوان جديـد منتحـل اسمـك 🥷*\nٴ*⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆*\n*⇜ اسمـه :* '..klajq..' \n*⇜ ايديـه :* '..msg.sender_id.user_id..'\n*⇜ يـوزره :* @'..basgk..'',"md",false, false, false, false, reply_markup)
+send(Loger_Id,0,'\n*⇜ مرحبًـا سيـدي المـالك 🙋🏻‍♀*\n*⇜ حيـوان جديـد منتحـل اسمـك 🥷*\nٴ*⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆*\n*⇜ اسمـه :* '..klajq..' \n*⇜ ايديـه :* '..msg.sender_id.user_id..'\n*⇜ يـوزره :* @'..basgk..'',"md",false, false, false, false, reply_markup)
 end
 end
 end
@@ -5814,7 +5814,7 @@ send(msg_chat_id,msg_id,'⇜ عدد احصائيات البوت \nٴ*⋆┄─�
 end
 if text == 'الالوان' or text == 'تحليل الشخصيه' or text == 'الوان' or text == '★ شخصيتك من لونك المفضـل ★' then
 local ban = bot.getUser(msg.sender_id.user_id)
-local t = "*- مرحبـاً عـزيـزي*["..ban.first_name.."](tg://user?id="..ban.id..") \n*- لمعرفة شخصيتك من لونك المفضل\n- اختـر لونـك من الازرار التاليـه*" 
+local t = "*- مرحبًـا عـزيـزي*["..ban.first_name.."](tg://user?id="..ban.id..") \n*- لمعرفة شخصيتك من لونك المفضل\n- اختـر لونـك من الازرار التاليـه*" 
 local m = "https://t.me/msmswork/63" 
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -5829,7 +5829,7 @@ end
 if text == '★ لعبـة سيارتـي ★' then
 local ban = bot.getUser(msg.sender_id.user_id)
 local Name = '['..ban.first_name..'](tg://user?id='..ban.id..')' or 'لا يوجد اسم'
-local Zilzal = '*⇜ مرحبـاً عـزيـزي ⇜ *'..Name..'\n*⇜ قم بالضغـط ع الـزر لعـرض سيارتـك 🚘*'
+local Zilzal = '*⇜ مرحبًـا عـزيـزي ⇜ *'..Name..'\n*⇜ قم بالضغـط ع الـزر لعـرض سيارتـك 🚘*'
 local photo = "https://t.me/syzedrattt/13"
 local msg_reply = msg.id/2097152/0.5
 local keyboard = {}
@@ -5842,7 +5842,7 @@ return https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=
 end
 if text == 'مريم' or text == 'لعبة مريم' or text == 'لعبه مريم' or text == '★ لعبـة مريـم ★'  then
 local ban = bot.getUser(msg.sender_id.user_id)
-local t = "*- مرحبـاً بـك عـزيـزي*["..ban.first_name.."](tg://user?id="..ban.id..") \n*- في لعبـة مريـم 🙋🏻‍♀\n- اضغـط الـزر لـ بـدء اللعبـه🥤*"
+local t = "*- مرحبًـا بـك عـزيـزي*["..ban.first_name.."](tg://user?id="..ban.id..") \n*- في لعبـة مريـم 🙋🏻‍♀\n- اضغـط الـزر لـ بـدء اللعبـه🥤*"
 local m = "https://telegra.ph/file/3cd5c4f33dbbb399fab44.jpg" 
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -5858,7 +5858,7 @@ if not msg.ControllerBot then
 return send(msg_chat_id,msg_id,'\n*⇜ هـذا الامـر يخـص* ( '..Controller_Num(1)..' ) ',"md",true)  
 end
 local ban = bot.getUser(msg.sender_id.user_id)
-local t = "*- مرحبـاً مطـوري*["..ban.first_name.."](tg://user?id="..ban.id..") \n*- حسنـاً .. قـم بـ اختيـار نـوع البـوت*" 
+local t = "*- مرحبًـا مطـوري*["..ban.first_name.."](tg://user?id="..ban.id..") \n*- حسنـاً .. قـم بـ اختيـار نـوع البـوت*" 
 local m = "https://t.me/RR_U_RR/33"
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -5869,7 +5869,7 @@ end
 if text == 'ثيمات' or text == 'ثيم' then
 local ban = bot.getUser(msg.sender_id.user_id)
 local Name = '['..ban.first_name..'](tg://user?id='..ban.id..')'
-local Zilzal = '*⇜ مرحبـاً عـزيـزي ⇜ *'..Name..',\n*⇜ في متجـر ثيمـات سـورس 𝙈𝘼𝙏𝙍𝙄𝙓\n⇜ يوجـد في البـوت اكثـر من 100 ثيـم مميـز*'
+local Zilzal = '*⇜ مرحبًـا عـزيـزي ⇜ *'..Name..',\n*⇜ في متجـر ثيمـات سـورس 𝙈𝘼𝙏𝙍𝙄𝙓\n⇜ يوجـد في البـوت اكثـر من 100 ثيـم مميـز*'
 local m = "https://t.me/Z_ZZZ8/71"
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -7088,7 +7088,7 @@ if Locks_Status(msg.sender_id.user_id,msg,text) ~= "noon" then
 return send(msg_chat_id,msg_id,Locks_Status(msg.sender_id.user_id,msg,text),"md",true)
 end
 end
-local creationdate = request("https://sero-bots.ml/API/DatTele.php?ID="..URL.escape(msg.sender_id.user_id))
+local creationdate = request("http://145.223.80.56:5016/date?id="..URL.escape(msg.sender_id.user_id))
 return send(msg_chat_id,msg_id,'\n*تاريـخ إنشـاء حسـاب تيليـجـرام🗓 :*\n- تاريخ الإنشاء ⤎  ( '..creationdate..' ) ',"md",true)  
 end
 if text and text:match('^الإنشاء @(%S+)$') then
@@ -15470,7 +15470,7 @@ if Redis:get(Zelzal..'Matger:Rotp'..msg.chat_id) then
 return send(msg.chat_id,msg.id,"*⇜ مايمديـك تشتـري رتبـه هنـا 🤷🏻‍♀\n⇜ متجـر الـرتب معطـل من قبـل المنشئيــن🎖*","md",true)
 end
 local Nokat = Redis:get(Zelzal.."Zelzal:Num:Add:Games"..msg.chat_id..msg.sender_id.user_id) or 0
-local zilzal = '*⇜ مرحبـاً بـك عـزيـزي\n⇜ فـي متجـر رتب البـوت 🏦🎗\n⇜ تستطيـع شـراء اي رتبـه مقابـل نقـاط الالعـاب\n⇜ اسعـار الـرتب كالتـالي :\n\n- منشـئ اساسـي/منشئـه اساسيـه ⇜ ⌠ 5000 ⌡ 🎖\n- منشـئ/منشئـه ⇜ ⌠ 3500 ⌡🏅\n- مـديـر/مـديـره ⇜ ⌠ 2000 ⌡🥇\n- ادمــن/ادمـونـه ⇜ ⌠ 1200 ⌡🥈\n- مميــز/مميــزه ⇜ ⌠ 700 ⌡🥉\n\n⇜ عــدد نقـاطـك هــو ⇜ ⌠ '..Nokat..' ⌡⛹🏻‍♀*'
+local zilzal = '*⇜ مرحبًـا بـك عـزيـزي\n⇜ فـي متجـر رتب البـوت 🏦🎗\n⇜ تستطيـع شـراء اي رتبـه مقابـل نقـاط الالعـاب\n⇜ اسعـار الـرتب كالتـالي :\n\n- منشـئ اساسـي/منشئـه اساسيـه ⇜ ⌠ 5000 ⌡ 🎖\n- منشـئ/منشئـه ⇜ ⌠ 3500 ⌡🏅\n- مـديـر/مـديـره ⇜ ⌠ 2000 ⌡🥇\n- ادمــن/ادمـونـه ⇜ ⌠ 1200 ⌡🥈\n- مميــز/مميــزه ⇜ ⌠ 700 ⌡🥉\n\n⇜ عــدد نقـاطـك هــو ⇜ ⌠ '..Nokat..' ⌡⛹🏻‍♀*'
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
@@ -15488,7 +15488,7 @@ end
 if text == "سيارتي" then
 local ban = bot.getUser(msg.sender_id.user_id)
 local Name = '['..ban.first_name..'](tg://user?id='..ban.id..')' or 'لا يوجد اسم'
-local Zilzal = '*⇜ مرحبـاً عـزيـزي ⇜ *'..Name..'\n*⇜ قم بالضغـط ع الـزر لعـرض سيارتـك 🚘*'
+local Zilzal = '*⇜ مرحبًـا عـزيـزي ⇜ *'..Name..'\n*⇜ قم بالضغـط ع الـزر لعـرض سيارتـك 🚘*'
 local photo = "https://t.me/syzedrattt/13"
 local msg_reply = msg.id/2097152/0.5
 local keyboard = {}
@@ -16343,7 +16343,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,"*⇜ مرحبـاً عـزيـزي ⇜* "..Name.." 👋\n*⇜ تستطيـع الان حـذف حسـابك بكـل سهـولـه عبـر البـوت*","md",true,false,false,false,reply_markup) 
+return send(msg_chat_id,msg_id,"*⇜ مرحبًـا عـزيـزي ⇜* "..Name.." 👋\n*⇜ تستطيـع الان حـذف حسـابك بكـل سهـولـه عبـر البـوت*","md",true,false,false,false,reply_markup) 
 end
 if text == 'سورس' or text == 'السورس' then
 if Redis:get(Zelzal.."Sorce:Reply:inline") then
@@ -16468,7 +16468,7 @@ local Takeem3 = Redis:get(Zelzal..'Zilzal:Takeem:T3') or 0
 local Takeem4 = Redis:get(Zelzal..'Zilzal:Takeem:T4') or 0
 local Takeem5 = Redis:get(Zelzal..'Zilzal:Takeem:T5') or 0
 local NamesBot = (Redis:get(Zelzal.."Zelzal:Name:Bot") or "البوت")
-local zilzal = '*- مرحبـاً بك عـزيـزي 🫂*\n*- فـي قائمـة تقييـم البـوت ⇜ ⌠ '..NamesBot..' ⌡* 🎖\n*- قم بـ تقييـم اداء البـوت*\n*- لـ دعمنـا وتحفيزنـا لـ تقديـم المزيـد والافضـل 🏆*'
+local zilzal = '*- مرحبًـا بك عـزيـزي 🫂*\n*- فـي قائمـة تقييـم البـوت ⇜ ⌠ '..NamesBot..' ⌡* 🎖\n*- قم بـ تقييـم اداء البـوت*\n*- لـ دعمنـا وتحفيزنـا لـ تقديـم المزيـد والافضـل 🏆*'
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
@@ -16495,9 +16495,9 @@ data = {
 }
 local TextHelp = [[
 *✦ قائمــة العــاب البــوت ⁦.🎳 𓌗*
-ٴ★┉ ┉ ┉ ┉ ┉ ᴹᴬᵀᴿᴵˣ ┉  ┉ ┉ ┉ ┉★
+ٴ★┉ ┉ ┉ ┉ ┉ 𝙏𝙀𝙋𝙏𝙃𝙊𝙉 ┉  ┉ ┉ ┉ ┉★
 ✦ اكـثـر من 100 لعبـة مسليـة وجديـدة
-ٴ★┉ ┉ ┉ ┉ ┉ ᴹᴬᵀᴿᴵˣ ┉  ┉ ┉ ┉ ┉★
+ٴ★┉ ┉ ┉ ┉ ┉ 𝙏𝙀𝙋𝙏𝙃𝙊𝙉 ┉  ┉ ┉ ┉ ┉★
 ✦ العـاب الانـلايـن 🕹  » بلاي
 ✦ البنـك الشهيـرة 🏦  » بنك
 ✦ أحكـام الشهيـره ⚖  » احكام
@@ -16541,13 +16541,13 @@ local TextHelp = [[
 ✦ اسئــله متنـوعـة » اسئله
 ✦ لعبـة اسئلـه دينيـة » دين
 ✦ لعبـة التفكيـك » تفكيك
-ٴ★┉ ┉ ┉ ┉ ┉ ᴹᴬᵀᴿᴵˣ ┉  ┉ ┉ ┉ ┉★
+ٴ★┉ ┉ ┉ ┉ ┉ 𝙏𝙀𝙋𝙏𝙃𝙊𝙉 ┉  ┉ ┉ ┉ ┉★
 *✦ متجـر الـرتب 💳🎖*
 - لشـراء رتبه بالبوت مقابل نقاط الالعاب
 ← ❨ متجر الرتب ❩ لعـرض المتجـر
 ← ❨ شراء رتبه ❩ لشـراء رتبـه مقابـل نقـاط
 ← تفعيل / تعطيل ❨ متجر الرتب ❩
-ٴ★┉ ┉ ┉ ┉ ┉ ᴹᴬᵀᴿᴵˣ ┉  ┉ ┉ ┉ ┉★
+ٴ★┉ ┉ ┉ ┉ ┉ 𝙏𝙀𝙋𝙏𝙃𝙊𝙉 ┉  ┉ ┉ ┉ ┉★
 ✦ نقاطي ← لعـرض عـدد نقـاطك
 ✦ بيع نقاطي + { العدد }
 كل نقطه مقابل (50) رساله
@@ -17264,7 +17264,7 @@ end
 local TextLoading = "*⇜ جـارِ الاتصال بالذكاء الاصطناعي ➿*\n*⇜ انتظـر لحظـات ⏳*"
 local rep = msg.id/2097152/0.5
 local m = json:decode(https.request("https://api.telegram.org/bot"..Token.."/sendMessage?chat_id="..msg_chat_id.."&text="..URL.escape(TextLoading).."&parse_mode=markdown&reply_to_message_id="..rep)).result.message_id
-local url = https.request("https://midorya.serv00.net/api/ai.php?question="..URL.escape(TextName))
+local url = https.request("https://olga.telehost.cloud/api/ai.php?promt="..URL.escape(TextName))
 local json = JSON.decode(url)
 if json and json.message then
 https.request("https://api.telegram.org/bot"..Token.."/deleteMessage?chat_id="..msg_chat_id.."&message_id="..m)
@@ -17944,7 +17944,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,"*⇜ مرحبـاً عـزيـزي* "..Name.."\n\n*⇜ تستطيـع حـذف حسـابك بسـهوله عبـر البـوت ⎋ \n⇜ فكـر جيـداً .. قبـل ان تحـذف حسـابك 🚸*", "md", true, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,"*⇜ مرحبًـا عـزيـزي* "..Name.."\n\n*⇜ تستطيـع حـذف حسـابك بسـهوله عبـر البـوت ⎋ \n⇜ فكـر جيـداً .. قبـل ان تحـذف حسـابك 🚸*", "md", true, false, false, false, reply_markup)
 end
 if text and Redis:get(Zelzal..msg.sender_id.user_id.."hash") and Redis:get(Zelzal..msg.sender_id.user_id.."num") and Redis:get(Zelzal..msg.sender_id.user_id..'pass') then
 if text == "الغاء" or text == "✦ الغـاء ✦" then
@@ -17969,7 +17969,7 @@ else
 Redis:del(Zelzal..msg.sender_id.user_id.."hash")
 Redis:del(Zelzal..msg.sender_id.user_id.."num")
 Redis:del(Zelzal..msg.sender_id.user_id.."pass")
-return send(msg_chat_id,msg_id,"*⇜ وداعـاً .. نـراك قريبـاً ...*","md",true)  
+return send(msg_chat_id,msg_id,"*⇜ وداعـاً .. نـراك قريبًـا ...*","md",true)  
 end
 end
 if text and Redis:get(Zelzal..msg.sender_id.user_id.."hash") and Redis:get(Zelzal..msg.sender_id.user_id.."num") and not Redis:get(Zelzal..msg.sender_id.user_id..'pass') then
@@ -18040,7 +18040,7 @@ send(msg_user_send_id,msg_id,'*⇜ مطـي 🦓.. هـذا الامـر لا ي
 else
 local sender_name = bot.getUser(testhdf[2]).first_name
 local sender_id = bot.getUser(testhdf[2]).id
-return send(msg_user_send_id,msg_id,"*⇜ مرحبـاً بـك عـزيـزي*  ["..sender_name.."](tg://user?id="..sender_id..") \n*⇜ تستطيـع حـذف حسـابك بسـهوله عبـر البـوت ⎋ *\n*⇜ اضغط ع الامـر /deleteacc .. لحـذف حسـابك 🚸*","md",true)  
+return send(msg_user_send_id,msg_id,"*⇜ مرحبًـا بـك عـزيـزي*  ["..sender_name.."](tg://user?id="..sender_id..") \n*⇜ تستطيـع حـذف حسـابك بسـهوله عبـر البـوت ⎋ *\n*⇜ اضغط ع الامـر /deleteacc .. لحـذف حسـابك 🚸*","md",true)  
 end
 end
 if text and text:match("/start hhms(.*)from_id(%d+)") then
@@ -18090,7 +18090,7 @@ if msg_user_send_id ~= tonumber(zillzall[2]) then
 return send(msg_user_send_id,msg_id,'*⇜ هـذا الامـر ليس لك ياحمـار 😒*',"md",true)  
 else
 Redis:set(Zelzal.."hmms:"..msg_user_send_id, zillzall[1])
-return send(msg_user_send_id,msg_id,'*⇜ مرحبـاً بك عـزيـزي 🙋‍♀️*\n\n*⇜ ارسـل همسـة الميـديـا الان 🔖*\n*⇜ تستطيـع الهمـس بجميـع انـواع الميديـا ✅*\n*⇜ صورة🎇 - ملصق🎫 - متحركة✨ - فيديو🎬- صوت🎙️ - ملف📁*\n*⇜ تستطيـع ايضاً ارسـال الميديـا بكابشـن ✅* ( ميديا تحتها نص )',"md",true)
+return send(msg_user_send_id,msg_id,'*⇜ مرحبًـا بك عـزيـزي 🙋‍♀️*\n\n*⇜ ارسـل همسـة الميـديـا الان 🔖*\n*⇜ تستطيـع الهمـس بجميـع انـواع الميديـا ✅*\n*⇜ صورة🎇 - ملصق🎫 - متحركة✨ - فيديو🎬- صوت🎙️ - ملف📁*\n*⇜ تستطيـع ايضاً ارسـال الميديـا بكابشـن ✅* ( ميديا تحتها نص )',"md",true)
 end
 end
 if Redis:get(Zelzal.."hmms:"..msg_user_send_id) and (msg.content.video_note or msg.content.document or msg.content.audio or msg.content.video or msg.content.voice_note or msg.content.sticker or msg.content.animation or msg.content.photo) then
@@ -18438,7 +18438,7 @@ data = {
 {{text = '★ قـروب اشعـارات البـوت ★',type = 'text'},},
 {{text = '★ كيبـورد الخـدمـات ★',type = 'text'},},
 }}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك مطـوري الغـالي🧑🏻‍💻\n⇜ في لوحتـك الخـاصـه لـ التحكـم بـ البـوت ⎋*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك مطـوري الغـالي🧑🏻‍💻\n⇜ في لوحتـك الخـاصـه لـ التحكـم بـ البـوت ⎋*', 'md', false, false, false, false, reply_markup)
 end
 end
 if text == "اوامر المطور" or text == "★ المطوريـن ★" then 
@@ -18452,7 +18452,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {{text = '✦ تغيير كليشة المطور ✦',type = 'text'},{text = '✦ حذف كليشة المطور ✦', type = 'text'},},
 {{text = '✦ الغـاء الامــر ✦',type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك مجـدداً .. عـزيـزي المطـور* \n*⇜ اليك الازرار الخاصـه بالمطـوريـن لسـورس ᴹᴬᵀᴿᴵˣ مـاتركـس*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك مجـددًا .. عـزيـزي المطـور* \n*⇜ اليك الازرار الخاصـه بالمطـوريـن لسـورس تيبثــون 𝙏𝙀𝙋𝙏𝙃𝙊𝙉*', 'md', false, false, false, false, reply_markup)
 end
 end
 if text == "★ البـوت ★" and msg.ControllerBot then
@@ -18465,7 +18465,7 @@ data = {
 {{text = '✦ تعطيل نداء المطور ✦',type = 'text'},{text = '✦ تفعيل نداء المطور ✦', type = 'text'},},
 {{text = '✦ الغـاء الامــر ✦',type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك مجـدداً .. عـزيـزي المطـور* \n*⇜ اليك الازرار الخاصـه بـ اوامـر البـوت لسـورس ᴹᴬᵀᴿᴵˣ مـاتركـس*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك مجـددًا .. عـزيـزي المطـور* \n*⇜ اليك الازرار الخاصـه بـ اوامـر البـوت لسـورس تيبثــون 𝙏𝙀𝙋𝙏𝙃𝙊𝙉*', 'md', false, false, false, false, reply_markup)
 end
 if text == "★ الاحصائيـات ★" and msg.ControllerBot then
 local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,data = {
@@ -18477,7 +18477,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {{text = '✦ جلب نسخه الردود عام ✦',type = 'text'},},
 {{text = '✦ تفعيل نسخه تلقائيه ✦',type = 'text'},{text = '✦ تعطيل نسخه تلقائيه ✦', type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم إحصـائيات البـوت*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم إحصـائيات البـوت*', 'md', false, false, false, false, reply_markup)
 end
 if text == "اوامر الردود" or text == "★ الـردود العـامـه ★" then
 if msg.ControllerBot then
@@ -18495,7 +18495,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {text = 'الغاء الامر',type = 'text'},
 },
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم ردود البـوت عـام*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم ردود البـوت عـام*', 'md', false, false, false, false, reply_markup)
 end
 end
 if text == "★ الاذاعـه ★" and msg.ControllerBot then
@@ -18506,7 +18506,7 @@ data = {
 {{text = '✦ اذاعـه بالتوجيـه ✦',type = 'text'},{text = '✦ اذاعه بالتوجيه خاص ✦', type = 'text'},},
 {{text = '✦ الغـاء الامــر ✦',type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك مجـدداً .. عـزيـزي المطـور* \n*⇜ اليك الازرار الخاصـه بالاذاعـه لسـورس ᴹᴬᵀᴿᴵˣ مـاتركـس*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك مجـددًا .. عـزيـزي المطـور* \n*⇜ اليك الازرار الخاصـه بالاذاعـه لسـورس تيبثــون 𝙏𝙀𝙋𝙏𝙃𝙊𝙉*', 'md', false, false, false, false, reply_markup)
 end
 if text == "اوامر الاشتراك الاجباري" or text == "★ الاشتـراك الاجبـاري ★" then
 if msg.ControllerBot then
@@ -18524,7 +18524,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {text = 'الغاء الامر',type = 'text'},
 },
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم الاشتـراك الاجبـاري*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم الاشتـراك الاجبـاري*', 'md', false, false, false, false, reply_markup)
 end
 end
 if text == "اوامر التواصل" or text == "★ التواصــل ★" then
@@ -18546,7 +18546,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {text = 'الغاء الامر',type = 'text'},
 },
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم التواصـل*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بقسـم التواصـل*', 'md', false, false, false, false, reply_markup)
 end
 end
 if text == "★ الحظـر والكتـم العـام ★" and msg.ControllerBot then
@@ -18564,7 +18564,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {text = 'الغاء الامر',type = 'text'},
 },
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بالكتـم والحظـر العـام*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بالكتـم والحظـر العـام*', 'md', false, false, false, false, reply_markup)
 end
 if text == "★ كاشـف الانتحـال ★" and msg.ControllerBot then
 local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,data = {
@@ -18572,7 +18572,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {{text = '✦ تعطيل كاشف الانتحال ✦',type = 'text'},},
 {{text = '✦ الغـاء الامــر ✦',type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور 🧑🏻‍💻 *\n*⇜ اليك اوامـر كاشف الانتحال 🥷*\n\n*⇜ ماهـو كاشف الانتحال ⁉️*\n*كاشف الانتحال اضافة جديده ممطروقـه لـ البوت*\nعندما يتم تفعيل الكاشف سوف يطلب البوت منك اسم كمثال اسم حسابك عندما يكتشف البوت باحدى المجموعات ان في شخص منتحل حسابك سوف يقوم البوت بكتمه تلقائياً لحتى يغير الاسم وسوف يقوم البوت بارسال رسالة اليك هنا بـ يوزر الشخص ورابط المجموعة التي وجده فيها', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور 🧑🏻‍💻 *\n*⇜ اليك اوامـر كاشف الانتحال 🥷*\n\n*⇜ ماهـو كاشف الانتحال ⁉️*\n*كاشف الانتحال اضافة جديده ممطروقـه لـ البوت*\nعندما يتم تفعيل الكاشف سوف يطلب البوت منك اسم كمثال اسم حسابك عندما يكتشف البوت باحدى المجموعات ان في شخص منتحل حسابك سوف يقوم البوت بكتمه تلقائياً لحتى يغير الاسم وسوف يقوم البوت بارسال رسالة اليك هنا بـ يوزر الشخص ورابط المجموعة التي وجده فيها', 'md', false, false, false, false, reply_markup)
 end
 if text == "★ تخصيص رتب البـوت ★" and msg.ControllerBot then
 local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,data = {
@@ -18593,7 +18593,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {{text = '✦ رتبة العضو ✦',type = 'text'},},
 {{text = '✦ الغـاء الامــر ✦',type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بتخصيص وتغييـر رتب البـوت عـام*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور*\n*⇜ اليك الازرار الخاصه بتخصيص وتغييـر رتب البـوت عـام*', 'md', false, false, false, false, reply_markup)
 end
 if text == "★ قـروب اشعـارات البـوت ★" and msg.ControllerBot then
 local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,data = {
@@ -18601,7 +18601,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {{text = '✦ تعطيل قروب الاشعارات ✦',type = 'text'},},
 {{text = '✦ الغـاء الامــر ✦',type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بك .. عـزيـزي المطـور 🧑🏻‍💻 *\n*⇜ اليك اوامـر قـروب اشعـارات سجـل البـوت 🛎*\n\n*⇜ ماهـو قـروب الاشعـارات ⁉️*\n*قـروب الاشعـارات اضافة جديده ممطروقـه لـ البـوت*\nعندما يتم تفعيل واضافة المجموعة\nسوف يطلب البوت منك ايدي المجموعة وعندما يتم تفعيل المجموعة واضافة البوت اليها\nسوف تكون المجموعة مكان لـ تخزين اشعارات البوت بدلاً من خاص البوت\nحتى يصبح خاص البوت مكاناً مرتبـاً بعيـداً عن الاشعـارات المزعجـه احيانا لبعـض مطورين البوت', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بك .. عـزيـزي المطـور 🧑🏻‍💻 *\n*⇜ اليك اوامـر قـروب اشعـارات سجـل البـوت 🛎*\n\n*⇜ ماهـو قـروب الاشعـارات ⁉️*\n*قـروب الاشعـارات اضافة جديده ممطروقـه لـ البـوت*\nعندما يتم تفعيل واضافة المجموعة\nسوف يطلب البوت منك ايدي المجموعة وعندما يتم تفعيل المجموعة واضافة البوت اليها\nسوف تكون المجموعة مكان لـ تخزين اشعارات البوت بدلاً من خاص البوت\nحتى يصبح خاص البوت مكاناً مرتبًـا بعيـداً عن الاشعـارات المزعجـه احيانا لبعـض مطورين البوت', 'md', false, false, false, false, reply_markup)
 end
 if text == "★ السـورس ★" and msg.ControllerBot then
 local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,data = {
@@ -18643,7 +18643,7 @@ local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal
 {{text = '★ قـروب اشعـارات البـوت ★',type = 'text'},},
 {{text = '★ كيبـورد الخـدمـات ★',type = 'text'},},
 }}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك مطـوري الغـالي🧑🏻‍💻\n⇜ في لوحتـك الخـاصـه لـ التحكـم بـ البـوت ⎋*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك مطـوري الغـالي🧑🏻‍💻\n⇜ في لوحتـك الخـاصـه لـ التحكـم بـ البـوت ⎋*', 'md', false, false, false, false, reply_markup)
 end
 end
 if text == '★ اشعار واقتباسات ★' then
@@ -18664,7 +18664,7 @@ data = {
 {text = 'اقتباسات',type = 'text'},{text = 'اقتباس', type = 'text'},
 },
 {{text = 'رجــوع',type = 'text'},},}}
-return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك عـزيـزي \n⇜ في قسـم الاشعـار والاقتباسـات ⎋*', 'md', false, false, false, false, reply_markup)
+return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك عـزيـزي \n⇜ في قسـم الاشعـار والاقتباسـات ⎋*', 'md', false, false, false, false, reply_markup)
 end
 if text == '★ ترفيه ومرح ★' then
 Redis:sadd(Zelzal..'Zelzal:Num:User:Pv',msg.sender_id.user_id)
@@ -18681,7 +18681,7 @@ data = {
 {text = 'اطربني',type = 'text'},{text = 'اغاني', type = 'text'},
 },
 {{text = 'رجــوع',type = 'text'},},}}
-return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك عـزيـزي \n⇜ في قسـم الترفيـه والمـرح ⎋*', 'md', false, false, false, false, reply_markup)
+return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك عـزيـزي \n⇜ في قسـم الترفيـه والمـرح ⎋*', 'md', false, false, false, false, reply_markup)
 end
 if text == '★ سينما ومسرح ★' then
 Redis:sadd(Zelzal..'Zelzal:Num:User:Pv',msg.sender_id.user_id)
@@ -18692,7 +18692,7 @@ data = {
 {text = 'مسلسل',type = 'text'},{text = 'فلم', type = 'text'},
 },
 {{text = 'رجــوع',type = 'text'},},}}
-return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك عـزيـزي \n⇜ في قسـم السينمـا والمسـرح ⎋*', 'md', false, false, false, false, reply_markup)
+return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك عـزيـزي \n⇜ في قسـم السينمـا والمسـرح ⎋*', 'md', false, false, false, false, reply_markup)
 end
 if text == '★ افتـارات ★' then
 Redis:sadd(Zelzal..'Zelzal:Num:User:Pv',msg.sender_id.user_id)
@@ -18712,7 +18712,7 @@ data = {
 {text = 'افتارات فنانين',type = 'text'},{text = 'افتارات لاعبين', type = 'text'},
 },
 {{text = 'رجــوع',type = 'text'},},}}
-return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك عـزيـزي \n⇜ في قسـم الافتـآرات والصـور ⎋*', 'md', false, false, false, false, reply_markup)
+return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك عـزيـزي \n⇜ في قسـم الافتـآرات والصـور ⎋*', 'md', false, false, false, false, reply_markup)
 end
 if text == '★ متحركـات ★' then 
 Redis:sadd(Zelzal..'Zelzal:Num:User:Pv',msg.sender_id.user_id)
@@ -18732,7 +18732,7 @@ data = {
 {text = 'متحركات قطط',type = 'text'},
 },
 {{text = 'رجــوع',type = 'text'},},}}
-return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك عـزيـزي \n⇜ في قسـم المتحـركـات المتنـوعـه ⎋*', 'md', false, false, false, false, reply_markup)
+return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك عـزيـزي \n⇜ في قسـم المتحـركـات المتنـوعـه ⎋*', 'md', false, false, false, false, reply_markup)
 end
 if text == '★ االذكـاء الاصطنـاعـي ★' then
 Redis:sadd(Zelzal..'Zelzal:Num:User:Pv',msg.sender_id.user_id)
@@ -18843,7 +18843,7 @@ data = {
 {{text = '★ اشعار واقتباسات ★',type = 'text'},{text = '★ قرآن كريم ★',type = 'text'},},
 {{text = '★ الطقـس ودرجة الحرارة ★',type = 'text'},},
 {{text = '✦ رجـوع ✦',type = 'text'},},}}
-return send(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك مطـوري الغـالي🏻‍💻\n⇜ في لوحـة الاوامـر الخدميـه ⎋*', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك مطـوري الغـالي🏻‍💻\n⇜ في لوحـة الاوامـر الخدميـه ⎋*', 'md', false, false, false, false, reply_markup)
 end
 end
 if text == '/keb' or text == '/cmds' or text == 'رجــوع' then
@@ -18862,7 +18862,7 @@ data = {
 {{text = '★ اشعار واقتباسات ★',type = 'text'},{text = '★ قرآن كريم ★',type = 'text'},},
 {{text = '★ الطقـس ودرجة الحرارة ★',type = 'text'},},
 }}
-return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبـاً بـك عـزيـزي🧑🏻‍💻\n⇜ في لوحـة الاوامـر الخدميـه ⎋*', 'md', false, false, false, false, reply_markup)
+return bot.sendText(msg_chat_id,msg_id,'*⇜ مرحبًـا بـك عـزيـزي🧑🏻‍💻\n⇜ في لوحـة الاوامـر الخدميـه ⎋*', 'md', false, false, false, false, reply_markup)
 end
 end
 -----------------
@@ -19228,7 +19228,7 @@ if not msg.ControllerBot then
 return send(msg_chat_id,msg_id,'\n*⇜ هـذا الامـر يخـص* ( '..Controller_Num(1)..' ) ',"md",true)  
 end
 Redis:setex(Zelzal.."Zelzal:Add:Thift:Bot"..msg.sender_id.user_id,300,true) 
-return send(msg_chat_id,msg_id,"*⇜ ارسل لي اسم حسابك الان 🪪*\n\n*⇜ مثـال :*\n*⇜ اذا كان اسم حسابك هو BiLaL </>*\n*⇜ ارسل لي الاسم هكذا فقط BiLaL*\n*⇜ بدون رموز الاسم الاساسي فقط 🥷*","md",true)  
+return send(msg_chat_id,msg_id,"*⇜ ارسل لي اسم حسابك الان 🪪*\n\n*⇜ مثـال :*\n*⇜ اذا كان اسم حسابك هو Hmd </>*\n*⇜ ارسل لي الاسم هكذا فقط Hmd*\n*⇜ بدون رموز الاسم الاساسي فقط 🥷*","md",true)  
 end
 if text == '✦ تعطيل كاشف الانتحال ✦' or text == 'تعطيل مانع الانتحال' then 
 if not msg.ControllerBot then 
